@@ -9,6 +9,9 @@
 #include "utils.h"
 #include <string.h>
 
+//
+// This is Echo Server
+//
 
 using namespace std;
 
@@ -65,7 +68,7 @@ int main(int argc, char *argv[])
   while (1)
   {
     cout << "[Server]: Waiting for the new connection.." << endl;
-    
+
     sock = accept(listener, &client_addr, &client_addr_len ); //need to improve remote addr and port
 
     cout << "[Server]: Accept returned sock: " << sock << endl;
