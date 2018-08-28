@@ -53,6 +53,7 @@ int main(int argc, char *argv[])
     exit (1);
   }
 
+/*
   char tmp;
   while (1)
   {
@@ -72,7 +73,7 @@ int main(int argc, char *argv[])
   recv(sock, buf, socket_buffer_size, 0);
 
   printf("%s", buf);
-
+*/
   close(sock);
 
   return 0;
