@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
     exit (1);
   }
 
-/*
+
   char tmp;
   while (1)
   {
@@ -65,15 +65,15 @@ int main(int argc, char *argv[])
       break;
     }
 
-    send(sock, message, sizeof(message), 0);
+//    send(sock, message, sizeof(message), 0);
 
 
   }
 
-  recv(sock, buf, socket_buffer_size, 0);
+  //recv(sock, buf, socket_buffer_size, 0);
 
-  printf("%s", buf);
-*/
+//  printf("%s", buf);
+
   close(sock);
 
   return 0;
