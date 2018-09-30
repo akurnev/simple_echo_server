@@ -12,12 +12,18 @@
 #include "server.h"
 
 // Testing Jenkins Job
-
+// Lets build from Jenkins Job
+//
 //
 // This is Echo Server
 //
 
-  using namespace std;
+using namespace std;
+
+void dummy ()
+{
+  cout << "Dummy function" << endl;
+}
 
 //
 // Default constructor
