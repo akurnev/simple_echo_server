@@ -23,6 +23,7 @@ using namespace std;
 void dummy ()
 {
   cout << "Dummy function" << endl;
+  int a = 0;
 }
 
 //
